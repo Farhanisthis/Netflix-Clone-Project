@@ -2,31 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
 @font-face {
     font-family: 'netflix';
-    src: url(/netflix-sans-cufonfonts/NetflixSansThin.ttf);
+    src: url('https://github.com/farhanisthis/Netflix-Clone-Projects/blob/main/netflix-sans-cufonfonts/NetflixSansThin.ttf');
     font-weight: 100;
 }
 @font-face {
     font-family: 'netflix';
-    src: url(/netflix-sans-cufonfonts/NetflixSansRegular.ttf);
+    src: url('https://github.com/farhanisthis/Netflix-Clone-Projects/blob/main/netflix-sans-cufonfonts/NetflixSansRegular.ttf');
     font-weight: 200;
 }
 @font-face {
     font-family: 'netflix';
-    src: url(/netflix-sans-cufonfonts/NetflixSansLight.ttf);
+    src: url('https://github.com/farhanisthis/Netflix-Clone-Projects/blob/main/netflix-sans-cufonfonts/NetflixSansLight.ttf');
     font-weight: 400;
 }
 @font-face {
     font-family: 'netflix';
-    src: url(/netflix-sans-cufonfonts/NetflixSansMedium.ttf);
+    src: url('https://github.com/farhanisthis/Netflix-Clone-Projects/blob/main/netflix-sans-cufonfonts/NetflixSansMedium.ttf');
 }
 @font-face {
     font-family: 'netflix';
-    src: url(/netflix-sans-cufonfonts/NetflixSansBold.ttf);
+    src: url('https://github.com/farhanisthis/Netflix-Clone-Projects/blob/main/netflix-sans-cufonfonts/NetflixSansBold.ttf');
     font-weight: bold;
 }
 @font-face {    
     font-family: 'netlfix_bold';
-    src: url(/netflix-sans-cufonfonts/NetflixSansBlack.ttf);
+    src: url('https://github.com/farhanisthis/Netflix-Clone-Projects/blob/main/netflix-sans-cufonfonts/NetflixSansBlack.ttf');
     font-weight: bolder;
 }
 *{
