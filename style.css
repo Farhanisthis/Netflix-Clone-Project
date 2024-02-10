@@ -21,7 +21,7 @@
 }
 @font-face {
     font-family: 'netflix';
-    src: url(./netflix-sans-cufonfonts/NetflixSansBold.ttf);
+    src: url('./netflix-sans-cufonfonts/NetflixSansBold.ttf');
     font-weight: bold;
 }
 @font-face {    
