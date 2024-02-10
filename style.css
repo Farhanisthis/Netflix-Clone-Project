@@ -2,22 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
 @font-face {
     font-family: 'netflix';
-    src: url(./netflix-sans-cufonfonts/NetflixSansThin.ttf);
+    src: url('./netflix-sans-cufonfonts/NetflixSansThin.ttf');
     font-weight: 100;
 }
 @font-face {
     font-family: 'netflix';
-    src: url(./netflix-sans-cufonfonts/NetflixSansRegular.ttf);
+    src: url('./netflix-sans-cufonfonts/NetflixSansRegular.ttf');
     font-weight: 200;
 }
 @font-face {
     font-family: 'netflix';
-    src: url(./netflix-sans-cufonfonts/NetflixSansLight.ttf);
+    src: url('./netflix-sans-cufonfonts/NetflixSansLight.ttf');
     font-weight: 400;
 }
 @font-face {
     font-family: 'netflix';
-    src: url(./netflix-sans-cufonfonts/NetflixSansMedium.ttf);
+    src: url('./netflix-sans-cufonfonts/NetflixSansMedium.ttf');
 }
 @font-face {
     font-family: 'netflix';
