@@ -169,6 +169,7 @@ body {
     height: 55px;
     width: 369px;
     color: #ffffff;
+    padding: 0 10px;
 }
 
 .input input::placeholder {
