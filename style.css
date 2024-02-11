@@ -168,6 +168,7 @@ body {
     margin: 20px 8px;
     height: 55px;
     width: 369px;
+    color: #ffffff;
 }
 
 .input input::placeholder {
