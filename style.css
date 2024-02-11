@@ -1,43 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
+
 @font-face {
     font-family: 'netflix';
     src: url('./netflix-sans-cufonfonts/NetflixSansThin.ttf');
     font-weight: 100;
 }
+
 @font-face {
     font-family: 'netflix';
     src: url('./netflix-sans-cufonfonts/NetflixSansRegular.ttf');
     font-weight: 200;
 }
+
 @font-face {
     font-family: 'netflix';
     src: url('./netflix-sans-cufonfonts/NetflixSansLight.ttf');
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'netflix';
     src: url('./netflix-sans-cufonfonts/NetflixSansMedium.ttf');
 }
+
 @font-face {
     font-family: 'netflix';
     src: url('./netflix-sans-cufonfonts/NetflixSansBold.ttf');
     font-weight: bold;
 }
-@font-face {    
+
+@font-face {
     font-family: 'netlfix_bold';
     src: url('./netflix-sans-cufonfonts/NetflixSansBlack.ttf');
     font-weight: bolder;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: black;
 }
-.main{
-    background-image: url('https://github.com/farhanisthis/Netflix-Clone-Projects/blob/main/assets/images/background.jpg');
+
+.main {
+    background-image: url('./assets/images/background.jpg');
     height: 700px;
     background-position: center center;
     background-size: max(1300px, 100vw);
@@ -46,30 +55,32 @@ body{
 
 }
 
-.main .box{
+.main .box {
     background: rgba(0, 0, 0, 0.6);
-    height: 700px;
+    height: inherit;
     width: 100%;
     position: absolute;
     top: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
-    width: 62vw;
-    margin: 0 365px;
+    width: 61vw;
+    margin: auto;
     position: relative;
     top: 25px;
     z-index: 10;
 }
-.nav .logo{
+
+.nav .logo {
     height: 40px;
 }
-.content> :first-child{
+
+.content> :first-child {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,9 +90,10 @@ body{
     font-family: 'netlfix_bold';
     font-weight: bolder;
     font-size: 48px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 15px;
+
 }
+
 .content {
     height: 80vh;
     display: flex;
@@ -90,12 +102,13 @@ body{
     flex-direction: column;
     color: white;
     position: absolute;
-    bottom: -70px;
+    bottom: 0px;
     font-family: 'netflix';
     font-weight: 200;
-    font-size: 24px;    
+    font-size: 24px;
 }
-.sign-in{
+
+.sign-in {
     border: none;
     border-radius: 4px;
     height: 32px;
@@ -109,11 +122,14 @@ body{
     transition: ease-in-out .2s;
     cursor: pointer;
 }
-.sign-in:hover{
+
+.sign-in:hover {
     background-color: #c11119;
 }
-.english{
-    width: 126px;
+
+.english {
+    width: auto;
+    max-width: 120px;
     height: 32px;
     background-color: #202020bb;
     border: 1px solid #ffffff6b;
@@ -127,20 +143,23 @@ body{
     display: flex;
     align-items: center;
 }
-.button{
+
+.button {
     display: flex;
     align-items: center;
 }
-.english img{
+
+.english img {
     margin: 0px 9px;
 }
-.input{
+
+.input {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.input input{
+.input input {
     border-radius: 4px;
     border: 1px solid #ffffff6b;
     background-color: #1b1b1bc4;
@@ -150,7 +169,8 @@ body{
     height: 55px;
     width: 369px;
 }
-.input input::placeholder{
+
+.input input::placeholder {
     font-family: 'netflix';
     font-weight: 200;
     font-size: 16px;
@@ -159,10 +179,12 @@ body{
     left: 20px;
     bottom: 17px;
 }
-.input button:hover{
+
+.input button:hover {
     background-color: #c11119;
 }
-.input button{
+
+.input button {
     height: 55px;
     width: 210px;
     font-family: 'netflix';
@@ -173,25 +195,27 @@ body{
     border: none;
     border-radius: 4px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
     transition: ease-in-out .2s;
     cursor: pointer;
 }
 
 /* ----------------------------slide-content--------------------------------- */
-.separation{
+.separation {
     height: 8px;
     background-color: #2e2e2e;
 }
+
 /* ----------------------------------Section 1-------------------------------------- */
-section{
+section {
     height: 63vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.text{
+
+.text {
     display: flex;
     flex-direction: column;
     color: #ffffff;
@@ -199,29 +223,35 @@ section{
     font-size: 24px;
     font-weight: 200;
 }
-.text :first-child{
+
+.text :first-child {
     font-size: 48px;
     font-family: 'netlfix_bold';
     font-weight: bolder;
     margin-bottom: 10px;
 }
-.tv{
+
+.tv {
     position: relative;
 }
-.tv video{
+
+.tv video {
     height: 234px;
     position: absolute;
     right: 81px;
     bottom: 110px;
 }
-.tv img{
+
+.tv img {
     position: relative;
     z-index: 2;
     height: 430px;
+    mix-blend-mode:normal
 }
+
 /* ----------------------------------Section 2-------------------------------------- */
 
-.downlaod{
+.downlaod {
     position: absolute;
     background-color: black;
     height: 95px;
@@ -233,63 +263,75 @@ section{
     left: 131px;
     bottom: 30px;
 }
-.downlaod img{
+
+.downlaod img {
     position: absolute;
     height: 70px;
     top: 10px;
     left: 15px;
 }
-.gif{
+
+.gif {
     position: absolute;
     right: 75px;
     top: 15px;
 }
-.gif img{
+
+.gif img {
     height: 45px;
 
 }
-.downlaod h3{
+
+.downlaod h3 {
     font-size: 16px;
     font-family: 'netflix';
     font-weight: 200;
 }
-.downlaod p{
+
+.downlaod p {
     font-size: 14px;
     font-family: 'netflix';
     font-weight: 200;
     color: #0080ff;
 }
-.down-txt{
+
+.down-txt {
     position: absolute;
     top: 25px;
     left: 80px;
 }
+
 /* ----------------------------------Section 3-------------------------------------- */
-.tv-2{
+.tv-2 {
     position: relative;
 }
-.tv-2 video{
+
+.tv-2 video {
     position: absolute;
     height: 200px;
     right: 110px;
     top: 50px;
 
 }
-.tv-2 img{
+
+.tv-2 img {
     position: relative;
     z-index: 2;
     height: 430px;
+    mix-blend-mode: difference;
 }
+
 /* ----------------------------------Section 4-------------------------------------- */
 
 
-.body{
+.body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     position: relative;
 }
-.text-faq h1{
+
+.text-faq h1 {
     color: #ffffff;
     text-align: center;
     font-family: 'netlfix_bold';
@@ -297,15 +339,17 @@ section{
     font-weight: bolder;
     margin-top: 70px;
 }
-.faq-container{
+
+.faq-container {
     margin-top: 15px;
     padding-bottom: 50px;
 }
 
-.faq-box:hover{
+.faq-box:hover {
     background-color: #414141;
 }
-.faq-box{
+
+.faq-box {
     height: 83px;
     width: 61vw;
     background-color: #2d2d2d;
@@ -316,10 +360,12 @@ section{
     transition: all 0.2s;
     cursor: pointer;
 }
-.faq-box img{
+
+.faq-box img {
     padding: 25px;
 }
-.faq-box h2{
+
+.faq-box h2 {
     font-weight: 400;
     font-size: 24px;
     font-family: 'netflix';
@@ -327,152 +373,540 @@ section{
     color: #ffffff;
     padding: 25PX;
 }
-.faq-container h3{
+
+.faq-container h3 {
     margin: 50px 0 0 10px;
     text-align: center;
     color: #ffffff;
     font-family: 'netflix';
     font-size: 20px;
     font-weight: 200;
-    
 }
 
+.children img {
+    mix-blend-mode: difference;
+}
 
 /* --------------------------------Footer--------------------------------- */
-footer{
+footer {
     color: #ffffff;
     font-family: 'netflix';
     font-weight: 100;
     margin: 72px 150px;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-evenly;
 }
-.container .cols{
+
+.container .cols {
     display: flex;
     flex-direction: column;
     font-family: 'netflix';
     font-weight: 200;
     font-size: 14px;
 }
-li{
+
+li {
     list-style-type: none;
     margin: 15px 15px 15px 0px;
 }
-a{
+
+a {
     color: #ffffffb3;
 }
-h6{
+
+h6 {
     font-family: 'netflix';
     font-weight: 200;
     font-size: 16px;
     color: #acacac;
     margin-top: 20px;
 }
-h4{
+
+h4 {
     font-family: 'netflix';
     font-weight: 200;
     font-size: 14px;
     color: #acacac;
     margin-top: 20px;
 }
-h4, h6, .sec-btn{
+
+h4,
+h6,
+.sec-btn {
     margin-left: 214px;
 }
-.sec-btn{
+
+.sec-btn {
     margin-top: 12px;
 }
+footer {
+    color: #ffffff;
+    font-family: 'netflix';
+    font-weight: 100;
+    margin: 20px 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
 /* --------------------------------MEDIA QUERIES--------------------------------- */
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
     .nav {
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
-    .nav .logo{
+
+    .nav .logo {
         margin-left: 30px;
     }
-    .nav .button .sign-in{
+
+    .nav .button .sign-in {
         margin-right: 30px;
     }
-    .button{
+
+    .button {
         margin-bottom: 50px;
     }
 }
-@media screen and (max-width: 960px){
-    .nav .logo{
-        height: 24px;
-        margin-top: 3px;
-        margin-left: 28px;
+
+@media screen and (max-width: 1155px) {
+    section {
+        height: auto;
     }
-    .english, .sign-in{
-        margin: 0 4px;
-    }
-}
-@media screen and (max-width: 880px) {
 
     .content {
-      font-size: 16px;
-      text-align: center;
-      bottom: -50px;
+        text-align: center;
     }
-}
-@media screen and (max-width: 768px) {
 
-  
-    .content {
-      font-size: 16px;
-      text-align: center;
-      bottom: -50px; /* Adjust as needed */
+    .tv img,
+    video {
+        height: 300px;
     }
-  
-    .input input {
-        height: 55px;
-        width: 369px;
-    }
-    .input button{
-        font-size: 20px;
-    }
-  }
 
-  @media screen and (max-width: 600px) {
-    .nav .button .english{
-        width: 65px;
-    }
-    .content .input button{
-        height: 48px;
-        width: 160px;
-        font-size: 18px;
-    }
-    p{
-        display: none;
-    }
-    .content :first-child{
-        font-size: 32px;
-        height: 48px;
-        width: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .content{
-        font-size: 18px;
+    .tv video {
+        height: 165px;
         position: absolute;
-        top: 70px;
+        right: 55px;
+        bottom: 78px;
     }
-    .input{
+
+    .text {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        color: #ffffff;
+        font-family: 'netflix';
+        font-size: 18px;
+        font-weight: 200;
     }
-    .main{
-        height: 480px;
+
+    .text :first-child {
+        font-size: 38px;
+        font-family: 'netlfix_bold';
+        font-weight: bolder;
+        margin-bottom: 10px;
     }
-  }
-  @media screen and (max-width: 400px) {
-    .input{
-        width: 100%;
+
+    .downlaod {
+        position: absolute;
+        background-color: black;
+        height: 60px;
+        width: 210px;
+        border: 2px solid rgb(122, 122, 122);
+        border-radius: 12px;
+        color: #ffffff;
+        z-index: 2;
+        left: 95px;
+        bottom: 26px
     }
+
+    .downlaod img {
+        position: absolute;
+        height: 45px;
+        top: 8px;
+        left: 10px;
+    }
+
+    .gif {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+    }
+
+    .gif img {
+        height: 35px;
+
+    }
+
+    .downlaod h3 {
+        font-size: 13px;
+        font-family: 'netflix';
+        font-weight: 200;
+    }
+
+    .downlaod p {
+        font-size: 11px;
+        font-family: 'netflix';
+        font-weight: 200;
+        color: #0080ff;
+    }
+
+    .down-txt {
+        position: absolute;
+        top: 15px;
+        left: 55px;
+    }
+
+    .tv-2 img {
+        height: 300px;
+    }
+
+    .tv-2 video {
+        height: 140px;
+        position: absolute;
+        right: 78px;
+        top: 35px;
+    }
+
+    .children img {
+        mix-blend-mode: difference;
+        height: 300px;
+    }
+
+    .text-faq h1 {
+        font-size: 40px;
+    }
+
+    .faq-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-box {
+        height: 50px;
+        width: 40vw;
+        margin: 4px;
+    }
+
+    .faq-box img {
+        height: 20px;
+    }
+
+    .faq-box h2 {
+        font-size: 16px;
+    }
+    h4,h6,.sec-btn{
+        margin-left: 0px;
+    }
+    .questoin{
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+    }
+    .faq-box{
+        width: 70%;
+    }
+
 
 }
 
+@media screen and (max-width: 880px) {
+    .main {
+        height: 70vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    main.box{
+        height: auto;
+    }
+    .nav .logo{
+        height: 25px;
+    }
+    .english{
+        margin: 0 9px 9px 9px;
+    }
+    .sign-in{
+        margin: 0 30px 0 0;
+        
+        }
+    .button{
+        align-items: flex-start;
+    }
+    section {
+        margin: 50px 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        text-align: center;
+        font-size: 18px;
+        height: auto;
+        align-items: center;
+        top: 0;
+
+    }
+
+    .content> :first-child {
+        font-size: 28px;
+    }
+
+    .tv img,video {
+        height: 300px;
+    }
+
+    .tv video {
+        height: 165px;
+        position: absolute;
+        right: 55px;
+        bottom: 78px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        font-family: 'netflix';
+        font-size: 18px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    .text :first-child {
+        font-size: 38px;
+        font-family: 'netlfix_bold';
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+
+    .downlaod {
+        position: absolute;
+        background-color: black;
+        height: 60px;
+        width: 210px;
+        border: 2px solid rgb(122, 122, 122);
+        border-radius: 12px;
+        color: #ffffff;
+        z-index: 2;
+        left: 95px;
+        bottom: 26px
+    }
+
+    .downlaod img {
+        position: absolute;
+        height: 45px;
+        top: 8px;
+        left: 10px;
+    }
+
+    .gif {
+        position: absolute;
+        right: 52px;
+        top: 5px;
+    }
+
+    .gif img {
+        height: 35px;
+
+    }
+
+    .downlaod h3 {
+        font-size: 13px;
+        font-family: 'netflix';
+        font-weight: 200;
+    }
+
+    .downlaod p {
+        font-size: 11px;
+        font-family: 'netflix';
+        font-weight: 200;
+        color: #0080ff;
+    }
+
+    .down-txt {
+        position: absolute;
+        top: 15px;
+        left: 55px;
+    }
+
+    .tv-2 img {
+        height: 300px;
+    }
+
+    .tv-2 video {
+        height: 140px;
+        position: absolute;
+        right: 78px;
+        top: 35px;
+    }
+
+    .children img {
+        mix-blend-mode: difference;
+        height: 300px;
+    }
+
+    .text-faq h1 {
+        font-size: 40px;
+    }
+
+    .faq-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-box {
+        height: 50px;
+        width: 40vw;
+        margin: 4px;
+    }
+
+    .faq-box img {
+        height: 20px;
+    }
+
+    .faq-box h2 {
+        font-size: 16px;
+    }
+    h4,h6,.sec-btn{
+        margin-left: 0px;
+    }
+    .faq-box{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .input {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .faq-box{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    footer{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .faq-box h2{
+        font-size: 12px;
+    }
+    .faq-box{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .nav .button{
+        margin: 0 30px 0 0;
+        align-items: flex-start;
+    }
+    .english p{
+        display: none;
+    }
+    .content> .con-2{
+        text-align: center;
+        text-wrap: ;
+   
+    }
+    .input input {
+        border-radius: 4px;
+        border: 1px solid #ffffff6b;
+        background-color: #1b1b1bc4;
+        display: flex;
+        align-items: center;
+        margin: 20px 8px;
+        height: 50px;
+        width: 130%;
+        max-width: 369px;
+
+    }
+    .input {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .input button {
+        width: 80%;
+        max-width: 369px;
+        font-size: 18px;
+    }
+    .faq-box{
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .faq-box h2{
+        font-size: 20px;
+        text-overflow: ellipsis;
+    }
+    .tv2 img {
+        height: 200px;
+    }
+
+    .tv2 video {
+        height: 110px;
+        position: absolute;
+        right: 38px;
+        top: 41px;
+    }
+    .tv-2 img {
+        height: 200px;
+    }
+
+    .tv-2 video {
+        height: 90px;
+        position: absolute;
+        right: 55px; 
+        top: 25px;
+    }
+    .faq-box{
+        width: 90%;
+        height: 75px;
+    }
+    .con-2{
+        width: 270px;
+    }
+    footer{
+        display: flex;
+        margin: 0 20px;
+    }
+    .container{
+        text-align: left;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    .cols{
+        width: 160px;
+    }
+    .sec-btn p{
+        display: flex;
+    }
+    h3{
+        width: 270px;
+    }
+}
