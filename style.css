@@ -46,7 +46,7 @@ body {
 }
 
 .main {
-    background-image: url('./assets/images/background.png');
+    background-image: url('./assets/images/background.jpg');
     height: 700px;
     background-position: center center;
     background-size: max(1300px, 100vw);
